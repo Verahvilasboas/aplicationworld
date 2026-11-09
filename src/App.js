@@ -543,7 +543,7 @@ function Layout() {
       <header className="topbar">
         <Link className="brand" to="/" onClick={() => setMenuOpen(false)}>
           <span className="brand__mark" aria-hidden="true" />
-          Tempo e Horas
+          world for you
         </Link>
         <button className="menu-toggle" aria-expanded={menuOpen} aria-controls="main-nav"
           onClick={() => setMenuOpen((o) => !o)}>

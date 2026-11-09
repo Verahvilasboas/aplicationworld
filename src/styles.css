@@ -40,6 +40,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
   min-height: 100vh;
   padding-top: calc(var(--top-h) + env(safe-area-inset-top, 0px));
   padding-bottom: calc(var(--bar-h) + env(safe-area-inset-bottom, 0px));
+box-shadow: #4a4456;
 }
 
 /* ---------- Menu em cima ---------- */
@@ -62,8 +63,8 @@ button { font: inherit; color: inherit; cursor: pointer; }
 }
 .brand__mark {
   width: 22px; height: 22px; border-radius: 4px;
-  background: linear-gradient(135deg, var(--night) 0 55%, var(--curtain) 55%);
-  transform: rotate(-8deg);
+  background: linear-gradient(135deg, var(--curtain) 55%);
+
 }
 .nav { display: flex; gap: 4px; }
 .nav a {
